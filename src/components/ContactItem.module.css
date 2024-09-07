@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #5c6e5811;
+    border-radius: 15px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.item p {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    color: #5c6e58;
+}
+
+.item p:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.item p span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #f2d349;
+    color: #ffff;
+    margin-right: 10px;
+}
+
+.delet,
+.edit {
+    text-align: center;
+    font-size: .9rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(246, 0, 0);
+    color: #fff;
+}
+
+.edit {
+    background-color: rgb(249, 237, 6);
+}
